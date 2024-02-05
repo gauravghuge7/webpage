@@ -1,0 +1,148 @@
+* {
+    margin: 0;
+    margin-top: 1px;
+    margin-bottom: 2px;
+    padding: 0;
+    overflow: hidden;
+    box-sizing: border-box;
+    /* background-color: rgb(220, 237, 253); */
+}
+
+body {
+    font-family: "Poppins", sans-serif;
+
+    height: 100vh;
+    width: 100vw;
+    background-color: rgb(220, 237, 253);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+li {
+    list-style: none;
+    cursor: pointer;
+}
+
+a{
+    text-decoration: none;
+
+}
+
+nav {
+    display: flex;
+    text-align: center;
+    justify-content: space-around;
+    /* gap: 40px; */
+}
+
+nav  .logo {
+    font-size: 30px;
+    font-weight: 500;
+}
+
+nav ul {
+    display: flex;
+    gap: 30px;
+}
+
+nav ul li {
+    font-size: 20px;
+}
+
+nav .Search {
+    display: flex;
+    gap: 20px;
+    
+}
+
+nav .Search input {
+    border: 1px solid black;
+    border-radius: 2px;
+    font-size: 15px;
+    padding-left: 4px;
+}
+
+nav .Search button {
+    color: white;
+    padding: 2px;
+    padding-left: 8px;
+    padding-right: 8px;
+    background-color: rgb(82, 216, 212);
+    border: none;
+    border-radius: 3px;
+}
+
+nav .Search button:hover {
+    color: black;
+    background-color: white;
+    font-weight: 600
+}
+
+
+
+
+
+
+main {
+    display: flex;
+    gap: 300px;
+    text-align: center;
+    justify-content: center;
+    
+}
+
+main .leftPara h1 {
+    direction: ltr;
+}
+
+
+main .leftPara h1 span {
+    color: rgb(91, 161, 161);
+}
+
+main .leftPara .p2 span {
+    color: rgb(91, 161, 161);
+    font-weight: 500;
+    font-size: 20px;
+    
+
+}
+
+main .img1 div button {
+    height: auto;
+    padding: 8px;
+    color: white;
+    border-radius: 3px;
+    border: none;
+    background-color: rgb(82, 216, 198);
+
+}
+
+main .img1 div button:hover {
+    color: black;
+    background-color: white;
+    font-weight: 600;
+}
+ 
+main .img1 img{
+
+    height: 300px;
+    width: 300px;
+}
+
+footer {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    gap: 250px;
+    
+}
+
+footer ul {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    gap: 30px;
+    cursor: pointer
+}
